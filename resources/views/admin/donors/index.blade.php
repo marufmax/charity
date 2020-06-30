@@ -1,11 +1,10 @@
 @extends('admin.default')
 
 @section('page-header')
-    Causes <small>Management</small>
+    Donors <small>Management</small>
 @endsection
-
-
 @section('content')
+    <button class="btn btn-primary" href="#"> Add </button>
     <div class="bgc-white bd bdrs-3 p-20 mB-20">
         <table id="dataTable" class="table table-striped table-bordered" cellspacing="0" width="100%">
             <thead>
